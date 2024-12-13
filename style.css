@@ -1,0 +1,59 @@
+body {
+    background-color: aliceblue;
+    justify-content: center;
+    color: midnightblue;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-decoration: underline;
+    max-width: 80%;
+}
+
+h4 {
+    max-width: 90%;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin:10px;
+}
+
+button {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    margin-left: 10px;;
+}
+
+p {
+    max-width: 80%;
+}
+
+.party_item {
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin:20px;
+    padding: 15px;
+    align-self: center;
+}
+#parties {
+    display: flex;
+    flex-direction: column;
+}
