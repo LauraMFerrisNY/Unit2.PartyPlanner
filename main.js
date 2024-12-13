@@ -22,10 +22,12 @@ const createPartyItem = (party) => {
     const partyContainer = document.createElement('div');
     partyContainer.classList.add('party_item');
 
-    const partyName = document.createElement('h3');
+    const partyName = document.createElement('h2');
     partyName.textContent = party.name;
     const partyDate = document.createElement('h4');
-    partyDate.textContent = party.date;
+    const isoString = party.date;
+    const date = new Date(isoString);
+    partyDate.textContent = date;
     const partyLocation = document.createElement('h4');
     partyLocation.textContent = party.location;
     const partyDetails = document.createElement('p');
